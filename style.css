@@ -100,6 +100,10 @@ body{
   font-weight: bold;
   font-size: .9em;
 }
+.students h2{
+  font-size: .9em;
+  font-weight: bold;
+}
 .right-content p{
   transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(180deg);
   margin-top: 6%;
@@ -113,4 +117,13 @@ body{
 
 .div-center p{
   text-align: justify !important;
+}
+
+.table-image {
+  max-width: 100%;
+  max-height: 70%;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transform: translateX(5%) translateY(10%);
 }
